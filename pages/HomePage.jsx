@@ -1,42 +1,42 @@
 import { useState, useEffect } from 'react';
 // Bringing in the required component from 'react-router-dom' for linking between pages
 import { Link } from 'react-router-dom';
-import Profile from '../components/UI/ProfileSections/ProfileTeaser';
-import ListItem from '../components/UI/ListItem';
+//import Profile from '../src/components/UI/ProfileSections/ProfileTeaser';
+//import ListItem from '../src/components/UI/ListItem';
+import CardList from '../src/components/UI/CardList'
+//import API from '../src/utils/API';
+import projectData from '../Data/projects.json';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 
-import API from '../utils/API';
+
 
 export default function HomePage() {
-  // Prior to the return statement, our homepage uses a few react hooks and fetchData function to query to a mock database and retrieve random user data
-  const [users, setUsers] = useState([]);
+  //set use state of projects = []
+  const [projects, setProjects] = useState([]);
 
-  const fetchData = async () => {
-    const { data } = await API.getUsers();
-
-    setUsers(data);
-  };
-
+  //set use effect = projectData
   useEffect(() => {
-    fetchData();
+ setProjects(projectData);
   }, []);
-
-  // Iterate over each mock user to display their abridged profile data and a link to their page
+  //showing the array of projects
+console.log(projectData);
+  // Iterate over each project to display their own card
   return (
-    <div className="container pt-4">
-      <ul className="list-group list-group">
-        {users.map((user) => (
-          <ListItem key={user.id}>
-            <Profile user={user} />
-            {/* Link elements are anchors under-the-hood, but they allow the routing behavior to be controlled by the client rather than the server */}
-            <Link
-              to={`/profile/${user.id}`}
-              className="badge bg-primary rounded-pill"
-            >
-              See More
-            </Link>
-          </ListItem>
-        ))}
-      </ul>
+    <div>
+      {projects.map((project) => (
+        <Card key={project.id} style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={project.image} />
+          <Card.Body>
+            <Card.Title>{project.projectName}</Card.Title>
+            <Card.Text>{project.shortSummary}</Card.Text>
+          </Card.Body>
+          <Card.Body style={{display:"flex", justifyContent:"space-between"}}>
+            <Card.Link href="{project.gitHubLink}">GitHub Repo</Card.Link>
+            <Card.Link href="{project.deployedAppLink}">Deployed App</Card.Link>
+          </Card.Body>
+        </Card>
+      ))}
     </div>
   );
-}
+ }
