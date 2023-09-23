@@ -8,33 +8,34 @@ import './index.css';
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
 // import ErrorPage from '../pages/ErrorPage';
-import HomePage from '../pages/HomePage';
-// import ProfilePage from '../pages/PortfolioPage';
-// import AboutPage from '../pages/AboutPage';
+import Resume from './components/UI/PortfolioSections/Resume';
+import About from './components/UI/PortfolioSections/AboutMe';
+import Portfolio from './components/UI/PortfolioSections/Portfolio';
+import Contact from './components/UI/PortfolioSections/Contact';
+import PortfolioContainer from './components/PortfolioContainer';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    //oerrorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <About />,
       },
-      // {
-      //   path: 'portfolio',
-      //   element: <PortfolioPage />,
-      // },
-      // {
-      //   path: 'aboutme',
-      //   element: <AboutPage />,
-      // },
-      // {
-      //   path: 'resume',
-      //   element: <ResumePage />,
-      // },
+      {
+        path: '/',
+        element: <Portfolio />,
+      },
+      {
+        path: '/',
+        element: <Contact />,
+      },
+      {
+        path: '/',
+        element: <Resume />,
+      },
     ],
   },
 ]);
@@ -42,4 +43,4 @@ const router = createBrowserRouter([
 // Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
-);
+  );
