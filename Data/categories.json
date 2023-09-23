@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "categoryName": "Full Stack Development"
+  },
+  {
+    "id": 2,
+    "categoryName": "GraphQL"
+  },
+  {
+    "id": 3,
+    "categoryName": "React"
+  },
+  {
+    "id": 4,
+    "categoryName": "Express"
+  },
+  {
+    "id": 5,
+    "categoryName": "Handlebars"
+  }
+]

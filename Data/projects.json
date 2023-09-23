@@ -6,7 +6,8 @@
     "gitHubLink": "https://github.com/Moebirdie",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
     "skills": "React, MERN",
-    "image": "Data/images/iStock-1388912000.jpg"
+    "image": "/Data/images/iStock-1388912000.jpg",
+    "categoryId": "1"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "gitHubLink": "https://github.com/Moebirdie",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
     "skills": "React",
-    "image": "/Data/images/codingquiz.png"
+    "image": "/Data/images/238326345-058aeb72-a5d5-4586-87b4-62692677954e.png",
+    "categoryId": "1"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "gitHubLink": "https://github.com/Moebirdie",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
     "skills": "React, MERN",
-    "image": "Data/images/planner.png"
+    "image": "/Data/images/bringupnotes.png",
+    "categoryId": "2"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "gitHubLink": "https://github.com/Moebirdie",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
     "skills": "React, MERN",
-    "image": "Data/images/storm.png"
+    "image": "/Data/images/storm1.png",
+    "categoryId": "4"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "gitHubLink": "https://github.com/Moebirdie",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
     "skills": "MERN",
-    "image": "Data/images/stars.png"
+    "image": "/Data/images/238326345-058aeb72-a5d5-4586-87b4-62692677954e.png",
+    "categoryId": "3"
   },
   {
     "id": 6,
@@ -51,6 +56,57 @@
     "gitHubLink": "https://github.com/Moebirdie",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
     "skills": "React",
-    "image": "Data/images/githubicon.png"
+    "image": "/Data/images/storm1.png",
+    "categoryId": "4"
+  },
+  {
+    "id": 7,
+    "projectName": "Project 2",
+    "shortSummary": "Some short text about the project",
+    "gitHubLink": "https://github.com/Moebirdie",
+    "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
+    "skills": "React",
+    "image": "/Data/images/238326345-058aeb72-a5d5-4586-87b4-62692677954e.png",
+    "categoryId": "3"
+  },
+  {
+    "id": 8,
+    "projectName": "Project 3",
+    "shortSummary": "Some short text about the project",
+    "gitHubLink": "https://github.com/Moebirdie",
+    "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
+    "skills": "React, MERN",
+    "image": "/Data/images/bringupnotes.png",
+    "categoryId": "2"
+  },
+  {
+    "id": 9,
+    "projectName": "Project 4",
+    "shortSummary": "Some short text about the project",
+    "gitHubLink": "https://github.com/Moebirdie",
+    "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
+    "skills": "React, MERN",
+    "image": "/Data/images/storm1.png",
+    "categoryId": "2"
+  },
+  {
+    "id": 10,
+    "projectName": "Project 5",
+    "shortSummary": "Some short text about the project",
+    "gitHubLink": "https://github.com/Moebirdie",
+    "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
+    "skills": "MERN",
+    "image": "/Data/images/238326345-058aeb72-a5d5-4586-87b4-62692677954e.png",
+    "categoryId": "3"
+  },
+  {
+    "id": 11,
+    "projectName": "Project 6",
+    "shortSummary": "Some short text about the project",
+    "gitHubLink": "https://github.com/Moebirdie",
+    "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/" ,
+    "skills": "React",
+    "image": "/Data/images/storm1.png",
+    "categoryId": "5"
   }
 ]

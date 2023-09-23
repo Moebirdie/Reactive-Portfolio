@@ -1,35 +1,30 @@
-import { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+import Resume from './UI/PortfolioSections/Resume';
+import About from './UI/PortfolioSections/AboutMe';
+import Portfolio from './UI/PortfolioSections/Portfolio';
+import Contact from './UI/PortfolioSections/Contact';
+import { Container } from 'react-bootstrap';
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+export default function PortfolioContainer({ currentPage }) {
+
+   const renderPage = () => {
+    switch (currentPage) {
+      case 'About Me':
+        return <About />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;   
     }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Blog') {
-      return <Blog />;
-    }
-    return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
-
   return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
-    </div>
+     <Container fluid style={{background:'#73937e', padding: '60px', maxWidth: '1440px' }}>
+      <main className="mx-3" >{renderPage()}</main>
+     </Container>
   );
 }
