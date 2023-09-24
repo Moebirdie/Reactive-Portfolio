@@ -1,10 +1,14 @@
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Row';
+import ResumeButton from '../ResumeButton';
 
 function Resume() {
   return (
 <Container>
+  <Row>
+    <ResumeButton />
+  </Row>
   <Row style={{display:'flex'}}>
     <Col md={8}>
     <table class="c29">

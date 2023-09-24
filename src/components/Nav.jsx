@@ -3,7 +3,6 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import PortfolioContainer from './PortfolioContainer';
 
 
 export default function Navigation({currentPage, updateCurrentPage}) {

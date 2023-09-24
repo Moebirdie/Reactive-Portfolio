@@ -4,33 +4,27 @@ function Form() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
 
   console.log(firstName, lastName)
-
-  // const handleInputChange = (e) => {
-  //   // Getting the value and name of the input which triggered the change
-  //   const { name, value } = e.target;
-
-  //   // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-  //   return name === 'firstName' ? setFirstName(value) : setLastName(value);
-  // };
 
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
     // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${firstName} ${lastName}`);
+    alert(`Thank you, ${firstName}. Thank you for your interest! I will be in touch shortly.`);
     setFirstName('');
     setLastName('');
   };
 
   return (
-    <div className="container text-center">
-      <h1>
-        Hello {firstName} {lastName}
-      </h1>
-      <form className="form" onSubmit={handleFormSubmit}>
+    <div className="container text-center" >
+      <h2 style={{color:'#f6f6df'}}>
+        Reach out to me with any questions you may have, or just to get in touch! {firstName} {lastName}
+      </h2>
+      <form className="form" onSubmit={handleFormSubmit} style={{display: 'flex', flexDirection: 'column', margin: 'auto', maxWidth: '400px', }}>
         <input
           value={firstName}
           name="firstName"
@@ -44,6 +38,20 @@ function Form() {
           onChange={(e) => setLastName(e.target.value)}
           type="text"
           placeholder="Last Name"
+        />
+          <input
+          value={email}
+          name="email"
+          onChange={(e) => setEmail(e.target.value)}
+          type="email"
+          placeholder="Email Address"
+        />
+          <input
+          value={phone}
+          name="phone"
+          onChange={(e) => setPhone(e.target.value)}
+          type="phone"
+          placeholder="Phone"
         />
         <button type="submit">
           Submit
