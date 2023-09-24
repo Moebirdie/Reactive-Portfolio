@@ -6,9 +6,9 @@ export default function Footer() {
   <>  
   <Container fluid style= {{ height:'100px', background: '#ffffff', padding: '20px', position: 'sticky', bottom: 0 }}>
     <Container style={{width: '100%'}}> 
-    <h3>HELLO</h3>
     </Container>
     <HorizontalStack />
+    <p style={{fontFamily:'Roboto', textAlign: 'center', paddingTop:'10px'}}>&copy; 2023 Maureen Erbe-Maher </p>
   </Container>
   </>
 )
