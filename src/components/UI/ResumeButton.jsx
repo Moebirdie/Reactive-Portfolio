@@ -13,7 +13,7 @@ const ResumeButton = () => {
 
   return (
     <div>
-      <button onClick={openPdfAndOpener}>Open PDF to Print</button>
+      <button className='resumeButton' onClick={openPdfAndOpener}>Open PDF to Print</button>
     </div>
   );
 };

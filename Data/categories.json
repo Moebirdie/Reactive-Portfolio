@@ -4,19 +4,19 @@
     "categoryName": "Full Stack Development"
   },
   {
-    "id": 2,
-    "categoryName": "GraphQL"
-  },
-  {
     "id": 3,
-    "categoryName": "React"
+    "categoryName": "Collaboration"
   },
   {
     "id": 4,
-    "categoryName": "Express"
+    "categoryName": "APIs"
   },
   {
     "id": 5,
-    "categoryName": "Handlebars"
+    "categoryName": "Educational"
+  },
+  {
+    "id": 6,
+    "categoryName": "HTML/CSS"
   }
 ]

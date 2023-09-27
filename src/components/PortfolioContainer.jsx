@@ -24,7 +24,7 @@ export default function PortfolioContainer({ currentPage }) {
   };
 
   return (
-     <Container fluid style={{background:'#73937e', padding: '60px', maxWidth: '1440px' }}>
+     <Container fluid className="portfolio-main">
       <main className="mx-3" >{renderPage()}</main>
      </Container>
   );
