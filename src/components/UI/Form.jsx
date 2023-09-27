@@ -6,6 +6,7 @@ function Form() {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
 
   console.log(firstName, lastName)
 
@@ -14,23 +15,27 @@ function Form() {
     e.preventDefault();
 
     // Alert the user their first and last name, clear the inputs
-    alert(`Thank you, ${firstName}. Thank you for your interest! I will be in touch shortly.`);
+    alert(`Thank you for your interest, ${firstName}! I will be in touch shortly.`);
     setFirstName('');
     setLastName('');
+    setEmail('');
+    setPhone('');
+    setMessage('');
   };
 
   return (
-    <div className="container text-center" >
-      <h2 style={{color:'#f6f6df'}}>
-        Reach out to me with any questions you may have, or just to get in touch! {firstName} {lastName}
+    <div className="container text-center formDiv" >
+      <h2>
+        Reach out to me with any questions you may have, or just to get in touch!
       </h2>
-      <form className="form" onSubmit={handleFormSubmit} style={{display: 'flex', flexDirection: 'column', margin: 'auto', maxWidth: '400px', }}>
+      <form className="form" onSubmit={handleFormSubmit} >
         <input
           value={firstName}
           name="firstName"
           onChange={(e) => setFirstName(e.target.value)}
           type="text"
           placeholder="First Name"
+          required={true}
         />
         <input
           value={lastName}
@@ -38,6 +43,7 @@ function Form() {
           onChange={(e) => setLastName(e.target.value)}
           type="text"
           placeholder="Last Name"
+          required={true}
         />
           <input
           value={email}
@@ -45,6 +51,7 @@ function Form() {
           onChange={(e) => setEmail(e.target.value)}
           type="email"
           placeholder="Email Address"
+          required={true}
         />
           <input
           value={phone}
@@ -53,7 +60,14 @@ function Form() {
           type="phone"
           placeholder="Phone"
         />
-        <button type="submit">
+          <textarea
+          value={message}
+          name="message"
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="How can we help you?"
+          required={true}
+        />
+        <button className="formButton" type="submit">
           Submit
         </button>
       </form>

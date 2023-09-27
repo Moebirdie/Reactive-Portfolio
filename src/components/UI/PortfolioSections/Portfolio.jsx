@@ -36,13 +36,13 @@ export default function Portfolio() {
   return (
     <Container >
       {categories.map((category) => (
-        <div key={category.id}>
-          <div style={{paddingTop: '80px'}}><h2>{category.categoryName}</h2></div>
+        <div key={category.id}  className="portfolio-card-div">
+          <div><h2>{category.categoryName}</h2></div>
           <hr />
-      <Container>
-        <Row xs={1} md={4} className="g-4">
+      <Container className="portfolio-card-row">
+        <Row xs={1} md={4} >
           {projectsByCategory[category.id]?.map((project) => (
-            <Col key={project.id}>
+            <Col key={project.id} className='mobile-card'>
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={project.image} />
                 <Card.Body>
