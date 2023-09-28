@@ -35,7 +35,7 @@ function Form() {
           onChange={(e) => setFirstName(e.target.value)}
           type="text"
           placeholder="First Name"
-          required={true}
+          required='First name is required!'
         />
         <input
           value={lastName}
@@ -43,7 +43,7 @@ function Form() {
           onChange={(e) => setLastName(e.target.value)}
           type="text"
           placeholder="Last Name"
-          required={true}
+          required='First name is required!'
         />
           <input
           value={email}
@@ -51,7 +51,7 @@ function Form() {
           onChange={(e) => setEmail(e.target.value)}
           type="email"
           placeholder="Email Address"
-          required={true}
+          required='Email is required!'
         />
           <input
           value={phone}
@@ -65,7 +65,7 @@ function Form() {
           name="message"
           onChange={(e) => setMessage(e.target.value)}
           placeholder="How can we help you?"
-          required={true}
+          required='Please tell us how we can help you!'
         />
         <button className="formButton" type="submit">
           Submit
