@@ -16,9 +16,8 @@ Link to live site: [Reactive-Portfolio](https://reactive-portfolio.netlify.app/)
 3. [Usage](#Usage)
 4. [Visual Description](#Visual-Description)
 5. [Contributors](#Contributing)
-6. [Tests](#Tests)  
-7. [Questions](#Questions)
-8. [License](#License)
+6. [Questions](#Questions)
+7. [License](#License)
   
 
 ## Installation <a id="Installation"></a>
