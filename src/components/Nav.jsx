@@ -17,7 +17,7 @@ export default function Navigation({currentPage, updateCurrentPage}) {
           <Navbar.Brand style={{ display:'flex' }}>
             <img
               alt=""
-              src="src/assets/ED-notag.png"
+              src="https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/65164621f99c2aac1192ad13_ED-notag.png"
               width="80"
               height="50"
               className="d-inline-block align-top"

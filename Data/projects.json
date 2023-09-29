@@ -6,7 +6,7 @@
     "gitHubLink": "https://github.com/Moebirdie/Regex-Tutorial",
     "deployedAppLink": "https://gist.github.com/Moebirdie/9171ae4b1d92f77f377657172f393d69",
     "skills": "RegEx, Javascript",
-    "image": "/Data/images/2regex.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/65164053ff59206f4843ed13_2regex%20(1).png",
     "categoryId": "5"
   },
   {
@@ -16,7 +16,7 @@
     "gitHubLink": "https://github.com/Moebirdie/limitless-exploration",
     "deployedAppLink": "https://moebirdie.github.io/limitless-exploration/",
     "skills": "Front-End, HTML, CSS",
-    "image": "/Data/images/2limitless.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/65164062f99c2aac118c654e_2limitless.png",
     "categoryId": "6"
   },
   {
@@ -26,7 +26,7 @@
     "gitHubLink": "https://github.com/Moebirdie/daily-planner",
     "deployedAppLink": "https://moebirdie.github.io/daily-planner/",
     "skills": "APIs, Days.js, JQuery",
-    "image": "/Data/images/2dailyplanner.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/6516405062553f7f1a31630f_2dailyplanner.png",
     "categoryId": "4"
   },
   {
@@ -36,7 +36,7 @@
     "gitHubLink": "https://github.com/Moebirdie/Expressly-Notes",
     "deployedAppLink": "https://expresslynotes-727fd338b757.herokuapp.com",
     "skills": "APIs, Heroku, Express.js",
-    "image": "/Data/images/expresslynotes.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/6515fdfd1e90dc6f533ac6f6_expresslynotes.png",
     "categoryId": "4"
   },
   {
@@ -46,7 +46,7 @@
     "gitHubLink": "https://github.com/Moebirdie/A-Weather-Dashboard",
     "deployedAppLink": "https://moebirdie.github.io/A-Weather-Dashboard/",
     "skills": "APIs, HTML/CSS",
-    "image": "Data/images/2weather.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/65163ff062553f7f1a310bf7_2weather.png",
     "categoryId": "4"
   },
   {
@@ -56,7 +56,7 @@
     "gitHubLink": "https://github.com/Allicris/project-two",
     "deployedAppLink": "https://project-two-20323fc10aa2.herokuapp.com/",
     "skills": "MVC, Authentication",
-    "image": "/Data/images/2pets.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/6516404cdf32f02c50257c34_2pets.png",
     "categoryId": "1"
   },
   {
@@ -66,7 +66,7 @@
     "gitHubLink": "https://github.com/tanovese/ohMyStars",
     "deployedAppLink": "https://tanovese.github.io/ohMyStars/",
     "skills": "APIs, HTML/CSS",
-    "image": "/Data/images/2ohmystars.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/6516405fa44aa82a08f1cdfd_2ohmystars.png",
     "categoryId": "3"
   },
   {
@@ -76,7 +76,7 @@
     "gitHubLink": "https://github.com/Moebirdie/coding-quizzes",
     "deployedAppLink": "https://moebirdie.github.io/coding-quizzes/",
     "skills": "Inquirer, local storage, HTML/CSS",
-    "image": "/Data/images/2codingquiz.png",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/65164048a44aa82a08f1abcb_2codingquiz%20(1).png",
     "categoryId": "5"
   }
 ]

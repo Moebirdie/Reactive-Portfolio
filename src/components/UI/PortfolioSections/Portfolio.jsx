@@ -43,15 +43,15 @@ export default function Portfolio() {
         <Row xs={1} md={4} >
           {projectsByCategory[category.id]?.map((project) => (
             <Col key={project.id} className='mobile-card'>
-              <Card style={{ width: '18rem' }}>
+              <Card >
                 <Card.Img variant="top" src={project.image} />
                 <Card.Body>
                   <Card.Title>{project.projectName}</Card.Title>
                   <Card.Text>{project.shortSummary}</Card.Text>
                 </Card.Body>
                 <Card.Body style={{ display: "flex", justifyContent: "space-between" }}>
-                  <Card.Link href="{project.gitHubLink}">GitHub Repo</Card.Link>
-                  <Card.Link href="{project.deployedAppLink}">Deployed App</Card.Link>
+                  <Card.Link ><a href={project.gitHubLink} target="_blank"> GitHub Repo</a></Card.Link>
+                  <Card.Link ><a href={project.deployedAppLink} target="_blank">Deployed App</a></Card.Link>
                 </Card.Body>
               </Card>
             </Col>
