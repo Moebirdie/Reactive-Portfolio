@@ -132,7 +132,7 @@ a:hover {
 .portfolio-main {
   background-color: #73937e; 
   padding: 60px;
-  padding-bottom: 120px; 
+  padding-bottom: 160px; 
   max-width: 1440px
 }
 .aboutContainer {
@@ -183,7 +183,7 @@ textarea {
 }
 .portfolio-card-row {
   padding-bottom: 60px;
-  padding-top: 20px;;
+  padding-top: 20px;
 }
 .card-text {
   font-family: 'Quicksand', sans-serif;
@@ -193,8 +193,9 @@ textarea {
 .card {
   border: 0px solid #ffffff;
   box-shadow: 2px 15px 15px 6px rgba(20,20,20,0.3);
+  width: 18rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .aboutImage {
     padding-bottom: 30px;
   }
@@ -210,6 +211,7 @@ textarea {
     padding: 10px;
     display: flex;
     justify-content: center;
+    min-width: 18em;
   }
   .nav {
     justify-content: space-around;
