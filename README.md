@@ -6,8 +6,6 @@
 
 This website is built with React to demonstrate use of React for front end development and as a place to share my projects. This site is a single webpage which renders various components within a page component based upon the path selected in the navigation. The site is deployed using netlify.
 
-
-
 Link to live site: [Reactive-Portfolio](https://reactive-portfolio.netlify.app/)
 
 
@@ -31,50 +29,28 @@ No installation.  This is meant to be informative.  However, the repository may 
 Features exhibited in this application include:
  - the use of navigation within the header which displays on all pages
  - the use of a footer which displays on all pages
- - the use of a single component that is looped through and used mulitiple times within a page
+ - the use of a single component that is used mulitiple times within a page
  - external linking
  - looping through json files to render project components multiple times on a page
  - a contact form with validation upon submit (except for phone which was not made required)
+ - a downloadable pdf
   
 
 ## Usage <a id="Usage"></a>
 
-This application is intended to be used by an end user to create a professional README file.  By prompting the user to answer questions, the end user is ensured to produce all the necessary elements of a good README file.  The user is expected to answer questions, then the questions are used by the create README file and a README is created in the repository.
+This application is intended to be used to view my projects to allow other to collaborate with me.
   
 
 ## Visual Description <a id="Visual-Description"></a>
 
-A visual representation of the working application may be seen here:  
+A visual representation of the working website may be seen here:
 
-### User Experience     
-
-![desc](assets/images/enduserinput.png)  
-
-### Required Package Files:  
-
-![desc](assets/images/requiredfiles.png)  
-
-### Required Answers:  
-
-![desc](assets/images/requiredans.png)  
-
-### Logic for writing Images:  
-
-![desc](assets/images/writeimageslogic.png)  
-
-### When Functions:  
-
-![desc](assets/images/whenfunctions.png)  
+![desc](Data/images/gifmaker_me%20(1).gif)
 
 
 ## Contributors <a id="Contributing"></a>
 
 Any user can create a branch, commit their changes and create a pull request to be reviewed. All contributions are welcome!
-  
-
-## Tests <a id="Tests"></a>
-
-Tests can be performed by downloading the application and running node index.js from the command prompt.
   
 
 ## Questions  <a id="Questions"></a>
