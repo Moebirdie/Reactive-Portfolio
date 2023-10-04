@@ -78,5 +78,15 @@
     "skills": "Inquirer, local storage, HTML/CSS",
     "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/65164048a44aa82a08f1abcb_2codingquiz%20(1).png",
     "categoryId": "5"
+  },
+  {
+    "id": 9,
+    "projectName": "Nail Booking Services",
+    "shortSummary": "Select a servcie and book an appointment!",
+    "gitHubLink": "https://github.com/Moebirdie/coding-quizzes",
+    "deployedAppLink": "https://moebirdie.github.io/coding-quizzes/",
+    "skills": "Graphql, React, Mongo, JWT",
+    "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/651caf26b40088515e19d075_nail.png",
+    "categoryId": "1"
   }
 ]
