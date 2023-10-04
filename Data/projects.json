@@ -83,8 +83,8 @@
     "id": 9,
     "projectName": "Nail Booking Services",
     "shortSummary": "Select a servcie and book an appointment!",
-    "gitHubLink": "https://github.com/Moebirdie/coding-quizzes",
-    "deployedAppLink": "https://moebirdie.github.io/coding-quizzes/",
+    "gitHubLink": "https://github.com/Allicris/nail-booking-site",
+    "deployedAppLink": "https://nail-booking-site-285746c99724.herokuapp.com/",
     "skills": "Graphql, React, Mongo, JWT",
     "image": "https://uploads-ssl.webflow.com/6515fbe1ba5a602a0f9586a5/651cb549c13d5ac51fac13bf_c1owbK5.png",
     "categoryId": "1"
